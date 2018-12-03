@@ -30,16 +30,21 @@ h3 {
   width:100%;
   position:relative;
   background-color: #424242;
-  height:100px;
   border:0;
-  padding:0;
+  padding-bottom:20px;
   margin:0;
 }
 
 #logo {
   float: left;
+  width:17.5%;
   margin-top:10px;
   margin-left:25px;
+}
+
+#logo img {
+	width:100%;
+	height:auto;
 }
 
 ul {
@@ -69,12 +74,15 @@ a:hover {
   position:relative;
   display:inline-block;
   width:100%;
-  padding-bottom:200px;
+  padding-bottom:220px;
   background-color: #FAFAFF;
+  background-image:url("./hands.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 #main-box h1 {
-  padding-top:50px;
+  padding-top:30px;
   padding-left:50px;
   line-height:0.5em;
 }
@@ -104,21 +112,28 @@ a:hover {
 
 #testimonials {
   display:inline-block;
-  width:100%;
+  width:99.25%;
   background-color: #FAFAFF;
   text-align: center;
   padding-top:30px;
   padding-bottom:90px;
+  margin-left:0.75%;
+}
+
+.block {
+  background-color: #424242;
+  width:23%;
+  float:left;
+  padding:2.5%;
+  margin:0 2.5% 0 2.5%;
+  display:flex;
 }
 
 .testimonials {
   font-family: "Work Sans", "Work Sans", sans-serif;
   font-size:1.2em;
-  width:27%;
-  float:left;
   text-align:left;
-  padding-left:5%;
-  display:flex;
+  color:#FAFAFF;
 }
 
 #exchange-your-life {
@@ -129,5 +144,18 @@ a:hover {
   text-align: center;
   padding-top:30px;
   padding-bottom:90px;
+}
 
+.button {
+	width:20%;
+	display:inline-block;
+	margin:0 auto;
+	background-color:#FAFAFF;
+	color:#424242;
+	padding:20px;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+}
+
+.button:hover {
+	background-color:#62A87C;
 }
