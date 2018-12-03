@@ -30,16 +30,21 @@ h3 {
   width:100%;
   position:relative;
   background-color: #424242;
-  height:100px;
   border:0;
-  padding:0;
+  padding-bottom:20px;
   margin:0;
 }
 
 #logo {
   float: left;
+  width:17.5%;
   margin-top:10px;
   margin-left:25px;
+}
+
+#logo img {
+	width:100%;
+	height:auto;
 }
 
 ul {
@@ -69,12 +74,15 @@ a:hover {
   position:relative;
   display:inline-block;
   width:100%;
-  padding-bottom:200px;
+  padding-bottom:220px;
   background-color: #FAFAFF;
+  background-image:url("./hands.jpeg");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 
 #main-box h1 {
-  padding-top:50px;
+  padding-top:30px;
   padding-left:50px;
   line-height:0.5em;
 }
@@ -104,21 +112,28 @@ a:hover {
 
 #testimonials {
   display:inline-block;
-  width:100%;
+  width:99.25%;
   background-color: #FAFAFF;
   text-align: center;
   padding-top:30px;
   padding-bottom:90px;
+  margin-left:0.75%;
+}
+
+.block {
+  background-color: #424242;
+  width:23%;
+  float:left;
+  padding:2.5%;
+  margin:0 2.5% 0 2.5%;
+  display:flex;
 }
 
 .testimonials {
   font-family: "Work Sans", "Work Sans", sans-serif;
   font-size:1.2em;
-  width:27%;
-  float:left;
   text-align:left;
-  padding-left:5%;
-  display:flex;
+  color:#FAFAFF;
 }
 
 #exchange-your-life {
@@ -129,5 +144,80 @@ a:hover {
   text-align: center;
   padding-top:30px;
   padding-bottom:90px;
+}
 
+.button {
+	width:20%;
+	display:inline-block;
+	margin:0 auto;
+	background-color:#FAFAFF;
+	color:#424242;
+	padding:20px;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+}
+
+.button:hover {
+	background-color:#62A87C;
+}
+
+h1.main-header {
+	font-size:2em;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */  
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+}
+
+#contact {
+	float:left;
+	color:#555;
+	margin:0;
+	padding:1.5% 5%;
+	width:70vw;
+}
+
+#contact h1 {
+	font-size:2.5em;
+	padding-top:3.5vw;
+}
+
+#contact p {
+	font-size:1.25rem;
+	font-weight:100;
+	line-height: 1.25em;
+}
+
+.required {
+	color:#ff0000;
 }
