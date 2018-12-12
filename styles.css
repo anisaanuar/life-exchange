@@ -1,45 +1,45 @@
 body {
-  margin:0;
+	margin:0;
 }
 
 h1 {
-  font-style: normal;
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-weight: 300;
-  font-size: 5em;
+	font-style: normal;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
+	font-size: 5em;
 }
 
 h2 {
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-style :normal;
-  font-weight: 50;
-  font-size: 3em;
-  tex
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-style :normal;
+	font-weight: 200;
+	font-size: 3em;
+	tex
 }
 
 h3 {
-  font-style: normal;
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-weight: 200;
-  font-size: 1.5em;
-  color:#FAFAFF;
+	font-style: normal;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
+	font-size: 1.5em;
+	color:#FAFAFF;
 }
 
 #top-nav {
-  display:inline-block;
-  width:100%;
-  position:relative;
-  background-color: #424242;
-  border:0;
-  padding-bottom:20px;
-  margin:0;
+	display:inline-block;
+	width:100%;
+	position:relative;
+	background-color: #424242;
+	border:0;
+	padding-bottom:20px;
+	margin:0;
 }
 
 #logo {
-  float: left;
-  width:17.5%;
-  margin-top:10px;
-  margin-left:25px;
+	float: left;
+	width:17.5%;
+	margin-top:10px;
+	margin-left:25px;
 }
 
 #logo img {
@@ -48,102 +48,106 @@ h3 {
 }
 
 ul {
-  list-style: none;
-  padding-right:25px;
-  padding-top:15px;
+	list-style: none;
+	padding-right:25px;
+	padding-top:15px;
 }
 
 li {
-  float:right;
-  margin: 10px;
-  font-size:1.15em;
+	float:right;
+	margin: 10px;
+	font-size:1.15em;
 }
 
 a {
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-style: normal;
-  text-decoration: none;
-  color:#FAFAFF;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-style: normal;
+	text-decoration: none;
+	color:#FAFAFF;
 }
 
 a:hover {
-  color:#51D674;
+	color:#51D674;
 }
 
 #main-box {
-  position:relative;
-  display:inline-block;
-  width:100%;
-  padding-bottom:220px;
-  background-color: #FAFAFF;
-  background-image:url("./hands.jpeg");
-  background-repeat:no-repeat;
-  background-size:cover;
+	position:relative;
+	display:inline-block;
+	width:100%;
+	padding-bottom:220px;
+	background-color: #FAFAFF;
+	background-image:url("./hands.jpeg");
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 #main-box h1 {
-  padding-top:30px;
-  padding-left:50px;
-  line-height:0.5em;
+	padding-top:30px;
+	padding-left:50px;
+	line-height:0.5em;
 }
 
 #main-box h2 {
-  padding-left:50px;
-  line-height:0.5em;
-  font-size:2.7em;
+	padding-left:50px;
+	line-height:0.5em;
+	font-size:2.7em;
 }
 
 #our-mission {
-  display:inline-block;
-  width:100%;
-  background-color: #424242;
-  color:#FAFAFF;
-  text-align: center;
-  padding-top:30px;
-  padding-bottom:90px;
+	display:inline-block;
+	width:100%;
+	background-color: #424242;
+	color:#FAFAFF;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:90px;
 }
 
 .mission-statement {
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-size:1.5em;
-  width:80%;
-  margin:0 auto;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
+
+	font-size:1.5em;
+	width:80%;
+	margin:0 auto;
 }
 
 #testimonials {
-  display:inline-block;
-  width:99.25%;
-  background-color: #FAFAFF;
-  text-align: center;
-  padding-top:30px;
-  padding-bottom:90px;
-  margin-left:0.75%;
+	display:inline-block;
+	width:99.25%;
+	background-color: #FAFAFF;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:90px;
+	margin-left:0.75%;
 }
 
 .block {
-  background-color: #424242;
-  width:23%;
-  float:left;
-  padding:2.5%;
-  margin:0 2.5% 0 2.5%;
-  display:flex;
+	background-color: #424242;
+	width:23%;
+	float:left;
+	padding:2.5%;
+	margin:0 2.5% 0 2.5%;
+	display:flex;
 }
 
 .testimonials {
-  font-family: "Work Sans", "Work Sans", sans-serif;
-  font-size:1.2em;
-  text-align:left;
-  color:#FAFAFF;
+	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
+
+	font-size:1.2em;
+	text-align:left;
+	color:#FAFAFF;
 }
 
 #exchange-your-life {
-  display:inline-block;
-  width:100%;
-  background-color: #424242;
-  color:#FAFAFF;
-  text-align: center;
-  padding-top:30px;
-  padding-bottom:90px;
+	display:inline-block;
+	width:100%;
+	background-color: #424242;
+	color:#FAFAFF;
+	text-align: center;
+	padding-top:30px;
+	padding-bottom:90px;
 }
 
 .button {
@@ -154,6 +158,8 @@ a:hover {
 	color:#424242;
 	padding:20px;
 	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
+
 }
 
 .button:hover {
@@ -197,6 +203,7 @@ input[type=submit]:hover {
 	background-color: #f2f2f2;
 	padding: 20px;
 	font-family: "Work Sans", "Work Sans", sans-serif;
+	font-weight: 200;
 }
 
 #contact {
